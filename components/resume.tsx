@@ -89,7 +89,7 @@ export default function Resume() {
   ]
 
   const handleDownload = () => {
-    const resumeUrl = '/Camdens_Resume (2).pdf';
+    const resumeUrl = '/Camdens_Resume.pdf';
     
     try {
       const link = document.createElement('a');

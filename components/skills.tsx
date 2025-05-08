@@ -70,7 +70,7 @@ export default function Skills() {
     },
     {
       name: "Tailwind CSS",
-      logo: "/logos/tailwindcss.svg",
+      logo: "/logos/tailwindcssimg.png",
     },
     {
       name: "Bootstrap",

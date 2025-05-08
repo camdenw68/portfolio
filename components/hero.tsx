@@ -20,7 +20,7 @@ export default function Hero() {
   const y = useTransform(scrollYProgress, [0, 1], [0, 200])
   const opacity = useTransform(scrollYProgress, [0, 0.5], [1, 0])
 
-  const roles = ["Frontend Developer", "Full Stack Engineer", "Computer Science Student", "Problem Solver"]
+  const roles = [ "Full Stack Developer", "Computer Science Student", "Problem Solver"]
   const role = roles[loopNum % roles.length]
 
   useEffect(() => {
